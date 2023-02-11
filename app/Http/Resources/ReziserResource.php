@@ -13,7 +13,7 @@ class ReziserResource extends JsonResource
      * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
      */
 
-     public static $wrap='author';
+     public static $wrap='reziser';
 
     public function toArray($request)
     {
