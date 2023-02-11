@@ -22,7 +22,7 @@ class FilmController extends Controller
 
         $my_films=array();
         foreach($films as $film){
-            array_push($my_films,new BookResource($film));
+            array_push($my_films,new FilmResource($film));
         }
 
         return $my_films;
