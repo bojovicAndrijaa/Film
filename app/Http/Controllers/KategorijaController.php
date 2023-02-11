@@ -15,9 +15,9 @@ class KategorijaController extends Controller
      */
     public function index()
     {
-        $kategorija=Kategorija::all();
+        $kategorijas=Kategorija::all();
 
-        return $kategorija;
+        return $kategorijas;
     }
 
     /**
