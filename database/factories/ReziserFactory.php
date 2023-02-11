@@ -12,12 +12,14 @@ class ReziserFactory extends Factory
     /**
      * Define the model's default state.
      *
-     * @return array<string, mixed>
+     * @return array
      */
     public function definition()
     {
         return [
-            //
+            'firstName'=>$this->faker->firstName(),
+           'lastName'=>$this->faker->lastName(),
+           'birthYear'=>$this->faker->year(),
         ];
     }
 }
